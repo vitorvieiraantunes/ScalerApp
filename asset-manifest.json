@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ScalerApp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ScalerApp/static/js/main.85c4cd9f.chunk.js",
+    "main.js.map": "/ScalerApp/static/js/main.85c4cd9f.chunk.js.map",
+    "runtime-main.js": "/ScalerApp/static/js/runtime-main.26558ee9.js",
+    "runtime-main.js.map": "/ScalerApp/static/js/runtime-main.26558ee9.js.map",
+    "static/js/2.60def433.chunk.js": "/ScalerApp/static/js/2.60def433.chunk.js",
+    "static/js/2.60def433.chunk.js.map": "/ScalerApp/static/js/2.60def433.chunk.js.map",
+    "index.html": "/ScalerApp/index.html",
+    "precache-manifest.70ab84c564ae55886ce21e65a1be15d1.js": "/ScalerApp/precache-manifest.70ab84c564ae55886ce21e65a1be15d1.js",
+    "service-worker.js": "/ScalerApp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ScalerApp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.60def433.chunk.js.LICENSE.txt": "/ScalerApp/static/js/2.60def433.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ScalerApp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26558ee9.js",
+    "static/js/2.60def433.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.85c4cd9f.chunk.js"
+  ]
+}
