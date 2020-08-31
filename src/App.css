@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.scale-factor-board{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-evenly;
+  padding: 10px;
+}
+input{
+  border-style: none;
+  
+}
+table{
+   width: 100%;
+}
+td{
+ padding-right: 4px; 
+ padding-left: 4px;  
+}
+td input{
+  width: 100%;
+
+}
+#root{
+  height:100%;
+}
+.App{
+  height: 100%;
+}
+.main-board{
+  height: 100%;
+}
+.ingredients-board{
+  background: #fff6f6;
+  padding: 0 5px;
+  min-height: 90%;
 }
 
-.App-link {
-  color: #61dafb;
+.scale-factor-board-div
+{
+  background: white;
+  height: 10%;
+}
+.scale-factor-board-div form
+{
+  margin: auto 0;
+  height: 10%;
+  
+}
+.scale-factor-board-div form input
+{
+  width: 40px;
+  border-bottom-style: groove;
+  font-size: large;
+  text-align: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  margin: auto 0;
+  height: 20px;
+  background-color: #ffe2e2;
+
+}
+
+@media only screen and (max-width: 600px)
+{
+  .scale-factor-board-div
+{
+  background: #ffe2e2;
+  
+}
+.scale-factor-board-div form input
+{
+  background-color: #ffe2e2;
+  
+}
+button{
+  margin: auto 0; 
+  height: 20px;
+  background-color: #fff6f6;
+
+}
+
 }
